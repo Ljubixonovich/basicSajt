@@ -4,4 +4,4 @@ Basic HTML teplate with
   - Bootstrap 3
   - jQuery
   
-  Fast to start and good for frontend practises.
+  Fast to start and good for frontend practise.
