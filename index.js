@@ -1,6 +1,7 @@
 const btn1 = document.getElementById('btn1')
 const btn2 = document.getElementById('btn2')
-log = (...logs) => console.log(...logs)
+const btn3 = document.getElementById('btn3')
+const log = (...logs) => console.log(...logs)
 
 btn1.onclick = function () {
   getPosts()
@@ -40,3 +41,6 @@ btn2.onclick = async (e) => {
     log(error)
   }
 }
+
+const btn3Handler = () => {}
+btn3.onclick = btn3Handler
